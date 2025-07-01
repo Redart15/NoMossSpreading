@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "redart15.nomossspreading.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "BlockLogicAccessor",
+    "BlockLogicGrassAccessor",
+    "StopGrassSpreadingMixin",
+    "StopMossSpreading"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
